@@ -7,52 +7,65 @@
     <title>BanCode</title>
 </head>
 <body>
-    <section>
+    <section class="contenedor-personas-empresa">
         <nav>
             <a href="">Personas</a>
             <span>|</span>
             <a href="">Empresas</a>
         </nav>
-        <div>
-            <input type="search">
-            <img src="" alt="modo_noche">
+        <div class="contenedor-input-modo-noche">
+            <input type="search" placeholder="Buscar "> 
+            <button>&times;</button>
+            <img src="public/img/Sun.png" alt="modo_noche">
         </div>
     </section>
+
     <header>
-        <img src="" alt="logo_bancode">
-        <nav>
-            <a href="">Productos</a>
-        </nav>
-        <section>
-            <button>¡Hazte Cliente!</button>
-            <button>Ingresar</button>
+        <img src="public/img/logo-bancode-sin-fondo.png" alt="logo_bancode">
+        
+        <section class="contenedor-nav-botones-header">
+            <nav>
+                <a href="">Productos</a>
+            </nav>
+            <button class="boton-hazte-cliente">¡Hazte Cliente!</button>
+            <button class="boton-ingresar">
+                <img src="public/img/Avatar.png" alt="user">
+                Ingresar
+            </button>
         </section>
+
     </header>
+
     <main>
         <h1>
-            0% cuota de manejo
+            0% en <span> cuota de manejo </span> 
         </h1>
         <hr>
         <p>Nuestras cuentas están excentas de cuota de manejo</p>
         <button>
             ¡Hazte cliente!
         </button>
-        <img src="" alt="img_slider">
-        <span>
+        <div>
+            <img src="public/img/stock-broker.png" alt="img_slider">
+        </div>
+        <span class="arrow-left-slider-main">
             <
         </span>
-        <span>
+        <span class="arrow-right-slider-main">
             >
         </span>
     </main>
-    <article>
-        <img src="" alt="img_autorizados">
+
+    <article class="contenedor-autorizacion">
+        <img class="img-autorizados" src="public/img/talent-requirements.png" alt="img_autorizados">
         <section>
-            <h3>Autorizados por el </h3> 
-            <img src="" alt="logo_cesde">
-            <div>
-                <p>Somos el banco con la mejor tasa de crédito o prestamos para todo lo relacionado con estudios de programación o tecnologías</p>
+            <div class="contenedor-encabezado-img-autorizacion">
+                <h3>Autorizados por el </h3> 
+                <img class="logo-cesde-autorizacion" src="public/img/Cesde 1.png" alt="logo_cesde">
             </div>
+            <p class="parrafo-autorizacion">
+                Somos el banco con la mejor tasa de crédito o prestamos para todo lo relacionado con estudios de programación o tecnologías
+            </p>
         </section>
     </article>
 

@@ -1,0 +1,242 @@
+/* tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* selector universal */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;;
+}
+
+body {
+    width: 430px;
+    height: auto;
+}
+
+.contenedor-personas-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5px;
+    gap: 10px;
+}
+
+.contenedor-personas-empresa nav a, .contenedor-personas-empresa nav span  {
+    color: #614AD9;
+    font-weight: bold;    
+}
+
+
+
+.contenedor-personas-empresa nav a:hover {
+    border-bottom: 2px solid #614AD9;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.contenedor-input-modo-noche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-input-modo-noche input {
+    height: 25px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:4px 3px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.contenedor-input-modo-noche button {
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 33%;
+    cursor: pointer;
+}
+
+.contenedor-input-modo-noche img {
+    width: 20px;
+    height: 20px;
+}
+
+header {
+    background: rgb(19, 22, 28);
+    background: linear-gradient(90deg, rgba(19,22,28,1) 0%, rgba(97,74,217,1) 35%, rgba(144, 126, 235, 1) 100%);
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #F6F5F5;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contenedor-nav-botones-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.boton-hazte-cliente, .boton-ingresar {
+    height: auto;
+    width: auto;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+.boton-hazte-cliente {
+    background: rgb(255, 107, 53);
+    background: linear-gradient(90deg, rgba(255, 107, 53, 1) 0%, rgba(204, 86, 42, 1) 35%, rgba(153, 64, 32, 1) 100%);
+    color: #F6F5F5;
+}
+
+.boton-ingresar {
+    color: #614AD9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.boton-ingresar img {
+    width: 15px;
+    height: 15px;
+}
+
+main {
+    margin-top: 15px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+main h1 {
+    color: #453B3B;
+}
+
+main h1 span {
+    color: #00A86B;
+}
+
+main p {
+    color: #000000;
+    font-style: italic;
+    text-align: center;
+}
+
+main hr {
+    width: 85%;
+    box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.3);
+    border-color: #614AD9;
+}
+
+main button {
+    background: rgb(0,122,204);
+    background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
+    color: #F6F5F5; 
+    font-weight: bold;
+    height: auto;
+    width: 190px;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+main .arrow-left-slider-main, main .arrow-right-slider-main {
+    position: absolute;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+.arrow-left-slider-main {
+    left: 5px;
+    top: 40%;
+}
+
+.arrow-right-slider-main {
+    right: 5px;
+    top: 40%;
+}
+
+main img {
+    width: 300px;
+    height: 200px;
+}
+
+/* autorizacion */
+
+.contenedor-autorizacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 10px;
+    gap: 15px;
+}
+
+
+.contenedor-encabezado-img-autorizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-autorizacion section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contenedor-encabezado-img-autorizacion h3 {
+    font-weight: 500;
+}
+
+.contenedor-encabezado-img-autorizacion img {
+    width: 100px;
+}
+
+
+.img-autorizados {
+    width: 300px;
+}
+
+.parrafo-autorizacion {
+    color: #13161C;
+    font-style: italic;
+    font-weight: 200;
+    text-align: justify;
+}
