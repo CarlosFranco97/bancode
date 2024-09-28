@@ -203,7 +203,7 @@ main img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin: 90px 0px;
     padding: 10px;
     gap: 15px;
 }
@@ -240,3 +240,115 @@ main img {
     font-weight: 200;
     text-align: justify;
 }
+
+/* simulacion credito estudiantil */
+.contenedor-simulacion-credito {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-encabezado-credito {
+    display: flex;
+    flex-direction: column;
+    background: rgb(65,50,140);
+    background: linear-gradient(90deg, rgba(65,50,140,1) 0%, rgba(65,50,140,1) 35%, rgba(144,126,235,1) 100%);
+    /* padding: 10px; */
+    border-radius: 15px;
+    width: 100%;
+    gap: 20px;
+}
+
+.contenedor-encabezado-credito div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F6F5F5;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.contenedor-encabezado-credito img {
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+.contenedor-encabezado-credito button {
+    color: #F6F5F5; 
+    font-weight: bold;
+    height: auto;
+    width: 120px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    background: rgb(0,122,204);
+    background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
+    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+/* beneficios */
+.contenedor-beneficios {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contenedor-beneficios h3 {
+    text-align: center;
+    color: #907EEB;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contenedor-imagenes-beneficios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1r;
+    grid-gap: 5px;
+    background-color: red;
+}
+
+.contenedor-img-cashback {
+    background-color: blue;
+}
+
+.contenedor-img-cashback img {
+    width: 190px;
+    height: 100%;
+}
+
+.contenedor-img-inversion-financieras img {
+    width: 210px;
+    height: 180px;
+}
+
+.contenedor-img-inversion-financieras {
+    background-color: green;
+}
+
+.contenedor-img-estudiantil-internacional {
+    background-color: black;
+}
+
+.contenedor-img-estudiantil-internacional img {
+    width: 100%;
+}
+
+.contenedor-imagenes-beneficios img{
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
