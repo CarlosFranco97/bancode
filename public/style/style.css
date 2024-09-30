@@ -537,7 +537,6 @@ ul {
     display: flex;
     gap: 10px;
     font-size: 18px;
-    margin-top: 30px;
 }
 
 /* footer */
@@ -634,12 +633,142 @@ footer > p {
 }
 
 /* media query tablet */
-@media(min-width: 768px) {
+@media(min-width: 768px) and (max-width:997px){
+    .contenedor-personas-empresa {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedor-input-modo-noche {
+        gap: 10px;
+    }
+
+    .contenedor-input-modo-noche input {
+        width: 410px;
+        height: 40px;
+    }
+
+    .contenedor-input-modo-noche img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /*contenedor simulacion credito */
+    .contenedor-simulacion-credito {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-encabezado-credito {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        width: 70%;
+    }
+
+    .contenedor-encabezado-credito div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .contenedor-encabezado-credito img {
+        height: 270px
+    }
+
+    /* contenedor beneficios */
+    .contenedor-beneficios {
+        margin-top: 100px;
+    }
+
+    .contenedor-imagenes-beneficios {
+        display: grid;
+        grid-template-columns: 27% 32% 38%;
+        grid-template-rows: 390px;
+        gap: 10px;
+    }
+
+
+    .contenedor-img-inversion-financieras img {
+        height: 50%;
+    }
+
+    .contenedor-img-estudiantil-internacional {
+        grid-column: 3/4;
+    }
+
+    .image-estudiantil {
+        height: 70%;
+    }
+    
+    .image-banca-internacional {
+        height: 30%;
+    }
+
+    /* convierte en cliente */
+
+    .contenedor-conviertete-cliente {
+        
+    }
+
+    .contenedor-unete {
+        width: 50%;
+        height: 60%;
+    }
+
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    footer section {
+        width: 100%;
+    }
+
+    .contenedor-logos-footer {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .logo-tuya-footer, .logo-cesde-footer {
+        width: 100px;
+        height: 80px;
+    }
+
+   
+
+    .contenedor-lineas-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-lineas-footer ul {
+        gap: 130px;
+
+    }
+
+
+    .contenedor-redes-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
 
 }
 
 /* media query desktop */
- @media(min-width: 1200px) {
+ @media(min-width: 998px) {
 
     .contenedor-personas-empresa {
         display: flex;
@@ -880,6 +1009,10 @@ footer > p {
         width: 30%;
         height: 50%;
         margin-left: 120px;
+    }
+
+    .contenedor-unete button {
+        margin-top: 30px;
     }
 
 
