@@ -130,6 +130,11 @@ header nav a {
     color: #F6F5F5;
 }
 
+.boton-hazte-cliente:hover {
+    background: rgb(0,122,204);
+    background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
+}
+
 .boton-ingresar {
     color: #614AD9;
     display: flex;
@@ -382,6 +387,7 @@ main img {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    height: auto;
     gap: 20px;
 }
 
@@ -642,6 +648,7 @@ footer > p {
     .contenedor-nav-botones-header {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .contenedor-nav-botones-header nav {
@@ -896,5 +903,6 @@ footer > p {
     /*boton atencion al cliente*/
     .boton-atencion-flotante {
         top: 650px;
+        right: 30px;
     }
  }
