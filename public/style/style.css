@@ -124,6 +124,7 @@ header nav a {
     box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
 }
 
+
 .boton-hazte-cliente {
     background: rgb(255, 107, 53);
     background: linear-gradient(90deg, rgba(255, 107, 53, 1) 0%, rgba(204, 86, 42, 1) 35%, rgba(153, 64, 32, 1) 100%);
@@ -141,6 +142,11 @@ header nav a {
     justify-content: center;
     align-items: center;
     gap: 2px;
+}
+
+.boton-ingresar:hover {
+    color: #F6F5F5;
+    background-color: #907EEB;
 }
 
 .boton-ingresar img {
@@ -202,6 +208,11 @@ main button {
     font-size: 25px;
     border: none;
     box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+main button:hover {
+    background: rgb(0,168,107);
+    background: linear-gradient(90deg, rgba(0,168,107,1) 0%, rgba(0,168,107,1) 50%, rgba(61,240,147,1) 100%);
 }
 
 main .arrow-left-slider-main, main .arrow-right-slider-main {
@@ -318,7 +329,15 @@ main img {
     background: rgb(0,122,204);
     background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
     box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+    font-size: 25px;
+    margin-top: 10px;
 }
+
+.contenedor-encabezado-credito button:hover {
+    background: rgb(255, 107, 53);
+    background: linear-gradient(90deg, rgba(255, 107, 53, 1) 0%, rgba(204, 86, 42, 1) 35%, rgba(153, 64, 32, 1) 100%);
+}
+
 
 /* seccion beneficios */
 .contenedor-beneficios {
@@ -516,9 +535,9 @@ ul {
     border: none;
     border-radius: 15px;
     display: flex;
-    align-items: center;
     gap: 10px;
     font-size: 18px;
+    margin-top: 30px;
 }
 
 /* footer */
@@ -602,6 +621,12 @@ footer > p {
     right: 10px;
     top: 565px;
     box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+    transition: .5s;
+}
+
+.boton-atencion-flotante:hover {
+    padding: 15px;
+
 }
 
 .boton-atencion-flotante img {
@@ -750,11 +775,7 @@ footer > p {
         font-size: 18px;
     }
 
-    .contenedor-encabezado-credito button {
-        font-size: 25px;
-        margin-top: 10px;
-    }
-
+    
     .contenedor-encabezado-credito img {
         width: 50%;
         border-radius: 0px 15px 15px 0px;
