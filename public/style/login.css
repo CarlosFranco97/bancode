@@ -1,0 +1,177 @@
+*/ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    height: 600px;
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+
+
+/*main izquierda*/
+
+main {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*contenedor izquierdo*/
+
+.section-main {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*titulo izquierdo*/
+
+.titulo-ingresa {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+/*barra de escribir el usuario izquierdo*/
+
+.usuario {
+    width: 429px;
+    height: 72px;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    border: #d9d9d9 solid 1px;
+}
+
+
+/*barra de escribir la contraseña izquierdo*/
+
+.contraseña {
+    width: 429px;
+    height: 72px;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    border: #d9d9d9 solid 1px;
+}
+
+
+/*enlace de olvidaste la contraseña izquierdo */
+
+.olvidaste {
+    color: black;
+    opacity: 50%;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+}
+
+
+/*boton ingresar izquierdo*/
+
+.ingresar {
+    width: 240px;
+    height: 71px;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #614AD9;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*aside derecha*/
+
+aside {
+    width: 600px;
+    height: 600px;
+    background: rgb(19, 22, 28);
+    background: linear-gradient(90deg, rgba(19, 22, 28, 1) 0%, rgba(97, 74, 217, 1) 35%, rgba(144, 126, 235, 1) 100%);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 500px;
+    left: 600px;
+}
+
+
+/*contenedor derecho*/
+
+.section-aside {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 70px;
+}
+
+
+/*titulo derecha*/
+
+.titulo-hola {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    position: relative;
+    top: 50px;
+}
+
+
+/*texto derecha*/
+
+.texto {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+}
+
+
+/*boton derecha*/
+
+.registro {
+    width: 240px;
+    height: 71px;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
