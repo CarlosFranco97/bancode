@@ -1,900 +1,925 @@
 /* tipografia */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* selector universal */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .contenedor-personas-empresa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 5px;
-    gap:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 5px;
+  gap: 5px;
 }
 
-.contenedor-personas-empresa nav a, .contenedor-personas-empresa nav span  {
-    color: #614AD9;
-    font-weight: bold;    
+.contenedor-personas-empresa nav a,
+.contenedor-personas-empresa nav span {
+  color: #614ad9;
+  font-weight: bold;
 }
-
-
 
 .contenedor-personas-empresa nav a:hover {
-    border-bottom: 2px solid #614AD9;
+  border-bottom: 2px solid #614ad9;
 }
 
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contenedor-input-modo-noche {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .contenedor-input-modo-noche input {
-    height: 40px;
-    width: fit-content;
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: none;
-    box-shadow:4px 3px 4px rgba(0, 0, 0, 0.2);
-    font-size: 20px; 
+  height: 40px;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
 }
 
 .contenedor-input-modo-noche section {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-input-modo-noche button {
-    background-color: white;
-    border: none;
-    position: absolute;
-    right: 5%;
-    cursor: pointer;
-    font-size: 25px;
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  font-size: 25px;
 }
 
 .contenedor-input-modo-noche img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 /* header */
 
 header {
-    background: rgb(19, 22, 28);
-    background: linear-gradient(90deg, rgba(19,22,28,1) 0%, rgba(97,74,217,1) 35%, rgba(144, 126, 235, 1) 100%);
-    padding: 10px;
-    margin: 10px 0px;
-    width: 100%;
+  background: rgb(19, 22, 28);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 22, 28, 1) 0%,
+    rgba(97, 74, 217, 1) 35%,
+    rgba(144, 126, 235, 1) 100%
+  );
+  padding: 10px;
+  margin: 10px 0px;
+  width: 100%;
 }
 
 header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 header nav a {
-    color: #F6F5F5;
-    font-weight: bold;
-    font-size: 18px;
+  color: #f6f5f5;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .contenedor-nav-botones-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
 }
 
-.boton-hazte-cliente, .boton-ingresar {
-    height: auto;
-    width: auto;
-    padding: 8px;
-    font-size: 18px;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+.boton-hazte-cliente,
+.boton-ingresar {
+  height: auto;
+  width: auto;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
 }
 
 .boton-hazte-cliente {
-    background: rgb(255, 107, 53);
-    background: linear-gradient(90deg, rgba(255, 107, 53, 1) 0%, rgba(204, 86, 42, 1) 35%, rgba(153, 64, 32, 1) 100%);
-    color: #F6F5F5;
+  background: rgb(255, 107, 53);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 107, 53, 1) 0%,
+    rgba(204, 86, 42, 1) 35%,
+    rgba(153, 64, 32, 1) 100%
+  );
+  color: #f6f5f5;
 }
 
 .boton-ingresar {
-    color: #614AD9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
+  color: #614ad9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
 }
 
 .boton-ingresar img {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 /* slider */
 
 main {
-    margin-top: 15px;
-    width: 100%;
-    padding: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+  margin-top: 15px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .contenedor-encabezado-texto-slider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 main h1 {
-    color: #453B3B;
+  color: #453b3b;
 }
 
 main h1 span {
-    color: #00A86B;
+  color: #00a86b;
 }
 
 main p {
-    color: #000000;
-    font-style: italic;
-    text-align: center;
+  color: #000000;
+  font-style: italic;
+  text-align: center;
 }
 
 main hr {
-    width: 85%;
-    box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.3);
-    border-color: #614AD9;
+  width: 85%;
+  box-shadow: 4px 3px 4px rgb(0, 0, 0, 0.3);
+  border-color: #614ad9;
 }
 
 main button {
-    background: rgb(0,122,204);
-    background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
-    color: #F6F5F5; 
-    font-weight: bold;
-    height: auto;
-    width: 190px;
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 25px;
-    border: none;
-    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+  background: rgb(0, 122, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(0, 122, 204, 1) 35%,
+    rgba(107, 178, 249, 1) 100%
+  );
+  color: #f6f5f5;
+  font-weight: bold;
+  height: auto;
+  width: 190px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 25px;
+  border: none;
+  box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
 }
 
-main .arrow-left-slider-main, main .arrow-right-slider-main {
-    position: absolute;
-    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
-    cursor: pointer;
-    font-weight: 1000;
-    font-size: 25px;
+main .arrow-left-slider-main,
+main .arrow-right-slider-main {
+  position: absolute;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+  font-weight: 1000;
+  font-size: 25px;
 }
 
 .arrow-left-slider-main {
-    left: 5px;
-    top: 40%;
+  left: 5px;
+  top: 40%;
 }
 
 .arrow-right-slider-main {
-    right: 5px;
-    top: 40%;
+  right: 5px;
+  top: 40%;
 }
 
 main img {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 
 /* autorizacion */
 
 .contenedor-autorizacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 90px 0px;
-    padding: 10px;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 90px 0px;
+  padding: 10px;
+  gap: 15px;
 }
 
-
 .contenedor-encabezado-img-autorizacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-autorizacion section {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .contenedor-encabezado-img-autorizacion h3 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .contenedor-encabezado-img-autorizacion img {
-    width: 100px;
+  width: 100px;
 }
 
-
 .img-autorizados {
-    width: 300px;
+  width: 300px;
 }
 
 .parrafo-autorizacion {
-    color: #13161C;
-    font-style: italic;
-    font-weight: 200;
-    text-align: justify;
+  color: #13161c;
+  font-style: italic;
+  font-weight: 200;
+  text-align: justify;
 }
 
 /* simulacion credito estudiantil */
 .contenedor-simulacion-credito {
-    height: auto;
-    width: 100%;
-    padding: 10px;
+  height: auto;
+  width: 100%;
+  padding: 10px;
 }
 
 .contenedor-encabezado-credito {
-    display: flex;
-    flex-direction: column;
-    background: rgb(65,50,140);
-    background: linear-gradient(90deg, rgba(65,50,140,1) 0%, rgba(65,50,140,1) 35%, rgba(144,126,235,1) 100%);
-    /* padding: 10px; */
-    border-radius: 15px;
-    width: 100%;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(65, 50, 140);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 50, 140, 1) 0%,
+    rgba(65, 50, 140, 1) 35%,
+    rgba(144, 126, 235, 1) 100%
+  );
+  /* padding: 10px; */
+  border-radius: 15px;
+  width: 100%;
+  gap: 20px;
 }
 
 .contenedor-encabezado-credito div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #F6F5F5;
-    text-align: center;
-    gap: 10px;
-    padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f6f5f5;
+  text-align: center;
+  gap: 10px;
+  padding: 15px;
 }
 
 .contenedor-encabezado-credito img {
-    width: 100%;
-    border-radius: 0px 0px 15px 15px;
-
+  width: 100%;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .contenedor-encabezado-credito button {
-    color: #F6F5F5; 
-    font-weight: bold;
-    height: auto;
-    width: 120px;
-    padding: 10px;
-    border-radius: 15px;
-    border: none;
-    font-size: 20px;
-    background: rgb(0,122,204);
-    background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
-    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+  color: #f6f5f5;
+  font-weight: bold;
+  height: auto;
+  width: 120px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  background: rgb(0, 122, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 122, 204, 1) 0%,
+    rgba(0, 122, 204, 1) 35%,
+    rgba(107, 178, 249, 1) 100%
+  );
+  box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
 }
 
 /* seccion beneficios */
 .contenedor-beneficios {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .contenedor-beneficios h3 {
-    text-align: center;
-    color: #907EEB;
-    font-weight: bold;
-    font-size: 30px;
+  text-align: center;
+  color: #907eeb;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .contenedor-imagenes-beneficios {
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 400px;
-    grid-template-columns: 1fr 1fr;
-    gap:5px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 400px;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
 }
-
 
 .contenedor-img-cashback img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
 
 .contenedor-img-inversion-financieras img {
-    width: 100%;
-    height: 180px;
+  width: 100%;
+  height: 180px;
 }
 
-
 .contenedor-img-inversion-financieras {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .contenedor-img-estudiantil-internacional {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    grid-column: 1/3;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  grid-column: 1/3;
 }
 
 .contenedor-img-estudiantil-internacional img {
-    width: 100%;
+  width: 100%;
 }
 
-.contenedor-imagenes-beneficios img{
-    border-radius: 35px;
+.contenedor-imagenes-beneficios img {
+  border-radius: 35px;
 }
-
 
 /* page preguntas frecuentes */
 
 .contenedor-preguntas-frecuentes {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .contenedor-preguntas-frecuentes h2 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.pregunta-uno, .pregunta-dos, .pregunta-tres, .pregunta-cuatro {
-    height: auto;
-    width: 100%;
-    background-color: #614AD9;
-    opacity: 85%;
-    border-radius: 35px;
-    padding: 20px;
-    color: #F8F9FA;
+.pregunta-uno,
+.pregunta-dos,
+.pregunta-tres,
+.pregunta-cuatro {
+  height: auto;
+  width: 100%;
+  background-color: #614ad9;
+  opacity: 85%;
+  border-radius: 35px;
+  padding: 20px;
+  color: #f8f9fa;
 }
 
-.pregunta-uno div, .pregunta-dos div, .pregunta-tres div, .pregunta-cuatro div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.pregunta-uno div,
+.pregunta-dos div,
+.pregunta-tres div,
+.pregunta-cuatro div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .contenedor-preguntas-frecuentes ul li {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* nuestros productos */
 
 .contenedor-nuestros-productos {
-    height: 600px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+  height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
 .contenedor-nuestros-productos h2 {
-    color: #907EEB;
-    margin-top: 45px;
-    text-align: center;
+  color: #907eeb;
+  margin-top: 45px;
+  text-align: center;
 }
 
 .contenedor-nuestros-productos span {
-    position: absolute;
-    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
-    cursor: pointer;
-    font-weight: 1000;
-    color: #007ACC;
-    font-size: 25px;
+  position: absolute;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+  font-weight: 1000;
+  color: #007acc;
+  font-size: 25px;
 }
 
 .arrow-left-slider-np {
-    top: 55%;
-    left: 5px;
+  top: 55%;
+  left: 5px;
 }
 
 .arrow-right-slider-np {
-    top: 55%;
-    right: 5px;
+  top: 55%;
+  right: 5px;
 }
 
 .contenedor-imagenes-nuestros-productos {
-    margin-top: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 55%;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 55%;
 }
 
 .contenedor-imagenes-nuestros-productos img {
-    border-radius: 30px;
-    width: 70%;
-    height: 90%;
+  border-radius: 30px;
+  width: 70%;
+  height: 90%;
 }
 
 /* seccion conviertete en cliente */
 
 .contenedor-conviertete-cliente {
-    width: 100%;
-    background-image: url(../img/fatemeh-rezvani-MnPWB-ybjHQ-unsplash\ 2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    margin-top: 50px;
-    color: #F6F5F5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  background-image: url(../img/fatemeh-rezvani-MnPWB-ybjHQ-unsplash\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 50px;
+  color: #f6f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-unete {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    padding: 20px;
-    border-radius: 35px;
-    background: rgb(19,22,28);
-    background: linear-gradient(119deg, rgba(19,22,28,1) 0%, rgba(19,22,28,1) 35%, rgba(126,138,150,0.65) 100%);
-    height: 50%;
-    width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  border-radius: 35px;
+  background: rgb(19, 22, 28);
+  background: linear-gradient(
+    119deg,
+    rgba(19, 22, 28, 1) 0%,
+    rgba(19, 22, 28, 1) 35%,
+    rgba(126, 138, 150, 0.65) 100%
+  );
+  height: 50%;
+  width: 90%;
 }
 
 .contenedor-unete p {
-    text-align: center;
+  text-align: center;
 }
 
 .contenedor-unete button {
-    color: #F6F5F5;
-    background-color: #FF6B35;
-    padding: 18px;
-    border: none;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 18px;
+  color: #f6f5f5;
+  background-color: #ff6b35;
+  padding: 18px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
 }
 
 /* footer */
 
 footer {
-    height: auto;
-    width: 100%;
-    background: rgb(19, 22, 28);
-    background: linear-gradient(90deg, rgba(19,22,28,1) 0%, rgba(97,74,217,1) 35%, rgba(144, 126, 235, 1) 100%);
-    margin-top: 80px;
-    padding: 30px 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  height: auto;
+  width: 100%;
+  background: rgb(19, 22, 28);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 22, 28, 1) 0%,
+    rgba(97, 74, 217, 1) 35%,
+    rgba(144, 126, 235, 1) 100%
+  );
+  margin-top: 80px;
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-footer p, footer ul li, footer h4{
-    color: #F6F5F5;
+footer p,
+footer ul li,
+footer h4 {
+  color: #f6f5f5;
 }
 
 footer section {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .contenedor-logos-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.logo-tuya-footer, .logo-cesde-footer {
-    width: 20%;
-    border-radius: 35px;
+.logo-tuya-footer,
+.logo-cesde-footer {
+  width: 20%;
+  border-radius: 35px;
 }
 
 .contenedor-lineas-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
 }
 
 .contenedor-lineas-footer h4 {
-    font-style: italic;
+  font-style: italic;
 }
 
-.contenedor-lineas-footer ul li{
-    font-weight: lighter;
+.contenedor-lineas-footer ul li {
+  font-weight: lighter;
 }
 
 .contenedor-lineas-footer ul {
-    display: flex;
+  display: flex;
 }
-
 
 .contenedor-redes-footer {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
-
-
 footer > p {
-    text-align: center;
-    font-weight: lighter;
-    font-style: italic;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 /* boton atencion al cliente */
 
 .boton-atencion-flotante {
-    background-color: #614AD9;
-    border-radius: 30px;
-    border: none;
-    padding: 10px;
-    position: fixed;
-    right: 10px;
-    top: 565px;
-    box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+  background-color: #614ad9;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  top: 565px;
+  box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
 }
 
 .boton-atencion-flotante img {
-    width: 40px;
+  width: 40px;
 }
 
 /* media query tablet */
-@media(min-width: 768px) {
-
+@media (min-width: 768px) {
 }
 
 /* media query desktop */
- @media(min-width: 1200px) {
+@media (min-width: 1200px) {
+  .contenedor-personas-empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .contenedor-personas-empresa {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .contenedor-input-modo-noche {
+    gap: 20px;
+  }
 
-    .contenedor-input-modo-noche {
-        gap: 20px;
-    }
+  .contenedor-input-modo-noche input {
+    width: 450px;
+    height: 40px;
+  }
 
-    .contenedor-input-modo-noche input {
-        width: 450px;
-        height: 40px;
-    }
+  .contenedor-input-modo-noche img {
+    width: 30px;
+    height: 30px;
+  }
 
-    .contenedor-input-modo-noche img {
-        width: 30px;
-        height: 30px;
-    }
+  /* header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
 
-    /* header */
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
+  .contenedor-nav-botones-header {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .contenedor-nav-botones-header {
-        display: flex;
-        flex-direction: row;
-    }
+  .contenedor-nav-botones-header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
 
-    .contenedor-nav-botones-header nav {
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-    }
+  /* slider */
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+  }
 
-    /* slider */
-    main {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 500px;
-    }
+  .contenedor-encabezado-texto-slider {
+    gap: 15px;
+  }
 
-    .contenedor-encabezado-texto-slider {
-        gap: 15px;
-    }
+  .contenedor-encabezado-texto-slider h1 {
+    font-size: 50px;
+  }
 
-    .contenedor-encabezado-texto-slider h1 {
-        font-size: 50px;
-    }
+  .contenedor-encabezado-texto-slider p {
+    font-size: 25px;
+  }
 
-    .contenedor-encabezado-texto-slider p {
-        font-size: 25px;
-    }
+  .contenedor-encabezado-texto-slider button {
+    margin-top: 30px;
+  }
 
-    .contenedor-encabezado-texto-slider button {
-        margin-top: 30px;
-    }
-    
-   main .arrow-left-slider-main, main .arrow-right-slider-main {
+  main .arrow-left-slider-main,
+  main .arrow-right-slider-main {
     font-size: 40px;
-   }
+  }
 
-    main div img {
-        width: 490px;
-        height: 350px;
-    }
+  main div img {
+    width: 490px;
+    height: 350px;
+  }
 
-    /* seccion autorizacion */
-    .contenedor-autorizacion {
-        display: flex;
-        flex-direction: row;
-    }
+  /* seccion autorizacion */
+  .contenedor-autorizacion {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .img-autorizados {
-        width: 520px;
-        height: 350px;
-    }
+  .img-autorizados {
+    width: 520px;
+    height: 350px;
+  }
 
-    .contenedor-encabezado-img-autorizacion h3{
-        font-size: 30px;
-    }
+  .contenedor-encabezado-img-autorizacion h3 {
+    font-size: 30px;
+  }
 
-    .contenedor-encabezado-img-autorizacion img {
-        width: 180px;
-        height: 70px;
-    }
+  .contenedor-encabezado-img-autorizacion img {
+    width: 180px;
+    height: 70px;
+  }
 
-    .parrafo-autorizacion {
-        font-size: 18px;
-        text-align: center;
-    }
+  .parrafo-autorizacion {
+    font-size: 18px;
+    text-align: center;
+  }
 
-    /* seccion simulacion credito */
-    
-    .contenedor-simulacion-credito {
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  /* seccion simulacion credito */
 
-    .contenedor-encabezado-credito {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 70%;
-        width: 90%;
-    }
+  .contenedor-simulacion-credito {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    
-    .contenedor-encabezado-credito div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        margin-left: 100px;
-    }
+  .contenedor-encabezado-credito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70%;
+    width: 90%;
+  }
 
-    .contenedor-encabezado-credito h2 {
-        font-size: 35px;
-    }
+  .contenedor-encabezado-credito div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 100px;
+  }
 
-    .contenedor-encabezado-credito p {
-        font-size: 18px;
-    }
+  .contenedor-encabezado-credito h2 {
+    font-size: 35px;
+  }
 
-    .contenedor-encabezado-credito button {
-        font-size: 25px;
-        margin-top: 10px;
-    }
+  .contenedor-encabezado-credito p {
+    font-size: 18px;
+  }
 
-    .contenedor-encabezado-credito img {
-        width: 50%;
-        border-radius: 0px 15px 15px 0px;
-    }
+  .contenedor-encabezado-credito button {
+    font-size: 25px;
+    margin-top: 10px;
+  }
 
-    /* beneficios */
+  .contenedor-encabezado-credito img {
+    width: 50%;
+    border-radius: 0px 15px 15px 0px;
+  }
 
-    .contenedor-beneficios h3 {
-        font-size: 35px
-    }
+  /* beneficios */
 
-    .contenedor-beneficios {
-        padding: 15px;
-    }
-   
-    .contenedor-imagenes-beneficios {
-        display: grid;
-        grid-template-columns: 25% 30% 41%;
-        grid-template-rows: 700px;
-        gap: 30px;
-    }
+  .contenedor-beneficios h3 {
+    font-size: 35px;
+  }
 
-    .contenedor-img-inversion-financieras {
-        gap: 30px;
-    }
+  .contenedor-beneficios {
+    padding: 15px;
+  }
 
-    .contenedor-img-inversion-financieras img {
-        width: 100%;
-        height: 50%;
-    }
+  .contenedor-imagenes-beneficios {
+    display: grid;
+    grid-template-columns: 25% 30% 41%;
+    grid-template-rows: 700px;
+    gap: 30px;
+  }
 
+  .contenedor-img-inversion-financieras {
+    gap: 30px;
+  }
 
-    .contenedor-img-estudiantil-internacional {
-        gap: 30px;
-        grid-column: 3/4;
-    }
+  .contenedor-img-inversion-financieras img {
+    width: 100%;
+    height: 50%;
+  }
 
-    /* imagenes 3era seccion de beneficios */ 
-    .image-estudiantil {
-        height: 70%;
-    }
+  .contenedor-img-estudiantil-internacional {
+    gap: 30px;
+    grid-column: 3/4;
+  }
 
-    .image-banca-internacional {
-        height: 30%;
-    }
+  /* imagenes 3era seccion de beneficios */
+  .image-estudiantil {
+    height: 70%;
+  }
 
+  .image-banca-internacional {
+    height: 30%;
+  }
 
-    /* contenedor preguntas frecuentes */
-    
-    .contenedor-preguntas-frecuentes h2{
-        font-size: 35px;
-    }
+  /* contenedor preguntas frecuentes */
 
-    .contenedor-preguntas-frecuentes {
-        display: flex;
-        align-items: center;
-        margin-top: 40px;
-    }
+  .contenedor-preguntas-frecuentes h2 {
+    font-size: 35px;
+  }
 
-    .pregunta-uno, .pregunta-dos, .pregunta-tres, .pregunta-cuatro {
-        width: 80%;
-        margin-top: 20px;
-    }
+  .contenedor-preguntas-frecuentes {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
 
-    /* nuestros productos */
+  .pregunta-uno,
+  .pregunta-dos,
+  .pregunta-tres,
+  .pregunta-cuatro {
+    width: 80%;
+    margin-top: 20px;
+  }
 
-    
+  /* nuestros productos */
 
-    .contenedor-nuestros-productos h2{
-        font-size: 35px;
-        margin-bottom: 20px;
-    }
+  .contenedor-nuestros-productos h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
 
-    .contenedor-imagenes-nuestros-productos img {
-        width: 100%;
-        height: 100%;
-    }
+  .contenedor-imagenes-nuestros-productos img {
+    width: 100%;
+    height: 100%;
+  }
 
-    .contenedor-nuestros-productos span {
-        font-size: 50px;
-        top: 50%;
-    }
+  .contenedor-nuestros-productos span {
+    font-size: 50px;
+    top: 50%;
+  }
 
-    .arrow-left-slider-np {
-        left: 10px;
-    }
+  .arrow-left-slider-np {
+    left: 10px;
+  }
 
-    .arrow-right-slider-np {
-        right: 10px;
-    }
+  .arrow-right-slider-np {
+    right: 10px;
+  }
 
-    /*conviertete nuestro cliente */ 
-    
-    .contenedor-conviertete-cliente {
-        margin-top: 70px;
-        display: flex;
-        justify-content: flex-start;
-        height: 600px;
-    }
+  /*conviertete nuestro cliente */
 
-    .contenedor-unete {
-        width: 30%;
-        height: 50%;
-        margin-left: 120px;
-    }
+  .contenedor-conviertete-cliente {
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    height: 600px;
+  }
 
+  .contenedor-unete {
+    width: 30%;
+    height: 50%;
+    margin-left: 120px;
+  }
 
-    /* footer */
-    footer {
-        display: flex;
-        flex-direction: column;
-        
-    }
+  /* footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .contenedor-logos-footer {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
+  .contenedor-logos-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 
-    .logo-tuya-footer, .logo-cesde-footer {
-        width: 120px;
-        height: 90px;
-    }
+  .logo-tuya-footer,
+  .logo-cesde-footer {
+    width: 120px;
+    height: 90px;
+  }
 
+  footer > section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-start;
+  }
 
-    footer > section {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: self-start;
-    }
+  .contenedor-lineas-footer {
+    margin-top: 60px;
+  }
 
-    .contenedor-lineas-footer {
-        margin-top: 60px;
-    }
+  .contenedor-lineas-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
 
-    .contenedor-lineas-footer ul{
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-    }
-
-
-    /*boton atencion al cliente*/
-    .boton-atencion-flotante {
-        top: 650px;
-    }
- }
+  /*boton atencion al cliente*/
+  .boton-atencion-flotante {
+    top: 650px;
+  }
+}
