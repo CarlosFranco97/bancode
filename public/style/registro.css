@@ -1,14 +1,22 @@
-*/ {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* definiendo altura del 100% */
+html {
+    height: 100%;
+}
+
 body {
-    width: 1210px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -17,13 +25,13 @@ body {
 aside {
     background: rgb(19, 22, 28);
     background: linear-gradient(90deg, rgba(19, 22, 28, 1) 0%, rgba(97, 74, 217, 1) 35%, rgba(144, 126, 235, 1) 100%);
-    width: 600px;
-    height: 600px;
+    width: 45%;
+    height: 100%;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
 }
 
 
@@ -32,11 +40,12 @@ aside {
 .section-aside {
     width: 500px;
     height: 500px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
     text-align: center;
+    gap: 40px;
 }
 
 
@@ -79,11 +88,9 @@ aside {
 
 /*main derecha*/
 
-main {
-    height: 600px;
-    width: 600px;
-    position: relative;
-    left: 600px;
+.contenedor-registro {
+    height: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,26 +99,22 @@ main {
 
 /*contenedor derecha*/
 
-.cuadro-registro {
-    height: 600px;
-    width: 500px;
+.cuadro-registro form {
+    height: 100%;
+    width: 100%;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    position: relative;
-    bottom: 40px;
+    align-items: center;
+    gap: 20px;
 }
 
 
 /*tiulo derecha*/
 
 .registrate {
-    width: 200px;
-    height: 62px;
+    text-align: center;
     font-size: 48px;
     font-weight: bold;
-    position: relative;
-    top: 40px;
 }
 
 
@@ -121,6 +124,8 @@ main {
     color: black;
     opacity: 50%;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 
@@ -132,18 +137,16 @@ main {
     border-radius: 20px;
     background-color: #d9d9d9;
     border: solid 1px #d9d9d9;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     font-size: 32px;
     font-weight: bold;
     color: black;
 }
 
 
+
 /*tiutlo de la contraseña*/
 
-.titulo-contraseña {
+.titulo-contrasena {
     color: black;
     opacity: 50%;
     font-weight: bold;
@@ -152,13 +155,10 @@ main {
 
 /*barra de escribir la contraseña*/
 
-.contraseña {
+.contrasena {
     width: 429px;
     height: 72px;
     background-color: #d9d9d9;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     border-radius: 20px;
     color: black;
     font-size: 32px;
@@ -173,18 +173,16 @@ main {
     width: 429px;
     height: 72px;
     background-color: #d9d9d9;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     border-radius: 20px;
-    position: relative;
-    top: 30px;
     font-size: 32px;
     font-weight: bold;
     color: black;
     border: #d9d9d9 solid 1px;
 }
 
+.usuario, .contrasena, .vereficar {
+    padding: 0px 10px;
+}
 
 /*boton de registrar*/
 
@@ -193,10 +191,6 @@ main {
     height: 56px;
     background-color: #614AD9;
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
     top: 60px;
     color: white;
     font-size: 32px;

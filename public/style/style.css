@@ -711,9 +711,6 @@ footer > p {
 
     /* convierte en cliente */
 
-    .contenedor-conviertete-cliente {
-        
-    }
 
     .contenedor-unete {
         width: 50%;
@@ -1059,4 +1056,5 @@ footer > p {
         top: 650px;
         right: 30px;
     }
+
  }
