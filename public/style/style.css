@@ -224,7 +224,7 @@ main button:hover {
 }
 
 main button a {
-    color: #F6F5F5; 
+    color: #F6F5F5
 }
 
  .arrow-left-slider-main, .arrow-right-slider-main {
@@ -299,7 +299,7 @@ main img {
 .contenedor-simulacion-credito {
     height: auto;
     width: 100%;
-    padding: 10px;
+    padding: 10px; 
 }
 
 .contenedor-encabezado-credito {
@@ -307,10 +307,9 @@ main img {
     flex-direction: column;
     background: rgb(65,50,140);
     background: linear-gradient(90deg, rgba(65,50,140,1) 0%, rgba(65,50,140,1) 35%, rgba(144,126,235,1) 100%);
-    /* padding: 10px; */
     border-radius: 15px;
     width: 100%;
-    gap: 20px;
+    gap: 30px;
 }
 
 .contenedor-encabezado-credito div {
@@ -510,7 +509,7 @@ ul {
 
 .contenedor-conviertete-cliente {
     width: 100%;
-    background-image: url(../img/fatemeh-rezvani-MnPWB-ybjHQ-unsplash\ 2.png);
+    background-image: url(../img/computador-trabajo-desarrollo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -903,7 +902,7 @@ footer > p {
         align-items: center;
         justify-content: center;
         gap: 20px;
-        margin-left: 100px;
+        margin-left: 7%;
     }
 
     .contenedor-encabezado-credito h2 {

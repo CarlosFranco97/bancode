@@ -206,6 +206,7 @@ main button {
   position: relative;
   top: 30px;
   color: #f6f5f5;
+  box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
 }
 
 .arrow-left-slider-main, .arrow-right-slider-main {
@@ -397,7 +398,7 @@ article {
   width: 100%;
   height: 620px;
   margin-bottom: 200px;
-  background-image: url(../img/mohammad-rahmani-gA396xahf-Q-unsplash.jpg);
+  background-image: url(../img/persona-desarrollando.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
