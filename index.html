@@ -9,9 +9,9 @@
 <body>
     <section class="contenedor-personas-empresa">
         <nav>
-            <a href="">Personas</a>
+            <a href="/index.html">Personas</a>
             <span>|</span>
-            <a href="">Empresas</a>
+            <a href="public/pages/empresas.html">Empresas</a>
         </nav>
         <div class="contenedor-input-modo-noche">
             <section>
@@ -27,15 +27,19 @@
         <img src="public/img/logo-bancode-sin-fondo.png" alt="logo_bancode">
         
         <section class="contenedor-nav-botones-header">
+            
             <nav>
-                <a href="">Productos</a>
+                <a href="#productos">Productos</a>
                 <a href="public/pages/preguntas.html">Preguntas frecuentes</a>
             </nav>
-            <button class="boton-hazte-cliente">¡Hazte Cliente!</button>
+            
+            <button class="boton-hazte-cliente"> <a href="public/pages/registro.html">¡Hazte Cliente!</a></button>
+            
             <button class="boton-ingresar">
                 <img src="public/img/Avatar.png" alt="user">
-                Ingresar
+                <a href="public/pages/login.html">Ingresar</a>
             </button>
+
         </section>
 
     </header>
@@ -51,9 +55,9 @@
                 ¡Hazte cliente!
             </button>
         </section>
-        <div>
-            <img src="public/img/stock-broker.png" alt="img_slider">
-        </div>
+        
+        <img src="public/img/stock-broker.png" alt="img_slider">
+        
         <span class="arrow-left-slider-main">
             <
         </span>
@@ -121,7 +125,7 @@
     </div>
     
 
-    <div class="contenedor-nuestros-productos">
+    <div id="productos" class="contenedor-nuestros-productos">
         <h2>
             Nuestros Productos
         </h2>
