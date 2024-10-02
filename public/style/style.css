@@ -609,6 +609,7 @@ footer section {
 
 .contenedor-redes-footer {
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
 
