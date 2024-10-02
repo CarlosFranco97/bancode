@@ -208,7 +208,6 @@ main hr {
 main button {
     background: rgb(0,122,204);
     background: linear-gradient(90deg, rgba(0,122,204,1) 0%, rgba(0,122,204,1) 35%, rgba(107,178,249,1) 100%);
-    color: #F6F5F5; 
     font-weight: bold;
     height: auto;
     width: 190px;
@@ -222,6 +221,10 @@ main button {
 main button:hover {
     background: rgb(0,168,107);
     background: linear-gradient(90deg, rgba(0,168,107,1) 0%, rgba(0,168,107,1) 50%, rgba(61,240,147,1) 100%);
+}
+
+main button a {
+    color: #F6F5F5; 
 }
 
  .arrow-left-slider-main, .arrow-right-slider-main {
