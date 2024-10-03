@@ -1,6 +1,6 @@
+/* menu hamburguesa */
 
-
-const hamburguerMenu = ({target}) => {
+ const hamburguerMenu = ({target}) => {
 
    const activeHamburguerMenu = target.classList.toggle('menu');
 
@@ -20,7 +20,7 @@ const hamburguerMenu = ({target}) => {
     
 }
 
-const containerNavResize = () => {
+ const containerNavResize = () => {
     const classNav = document.getElementsByClassName('contenedor-nav-botones-header');
     
     if(window.innerWidth >= 768) {
