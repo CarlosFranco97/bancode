@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
-    <script src="../js/main.js"></script>
     <title>Preguntas Frecuentes</title>
 </head>
 <body>
@@ -29,7 +28,7 @@
             
             <img src="../img/logo-bancode-sin-fondo.png" alt="logo_bancode">
             
-            <img  onclick="hamburguerMenu(event)"  class="menu-hamburguesa" src="/public/img/menu-hamburguesa.png" alt="">
+            <img  onclick="hamburguerMenu(event)"  class="menu-hamburguesa" src="public/img/menu-hamburguesa.png" alt="">
 
         </div>
         
@@ -55,7 +54,7 @@
                 <h4>
                     ¿Qué necesito para abrirme una cuenta BanCode?
                 </h4>
-                <img src="../img/arrow-top.png" alt="">
+                <img class="flecha-preguntas-frecuentes" onclick="toggleQuestions(event)" src="../img/arrow-top.png" alt="">
             </div>
                 <ul>
                     <li>-Documento de identidad</li>
@@ -70,7 +69,7 @@
                 <h4>
                     ¿Qué es una simulación de crédito?
                 </h4>
-                <img src="../img/arrow-top.png" alt="">
+                <img class="flecha-preguntas-frecuentes" src="../img/arrow-top.png" alt="">
             </div>
                 <ul>
                     <li>
@@ -86,7 +85,8 @@
                 <h4>
                     ¿Se puede brindar un beneficio fuera del campo de la programación
                 </h4>
-                <img src="../img/arrow-top.png" alt="">
+                <img class="flecha-preguntas-frecuentes" 
+                src="../img/arrow-top.png" alt="">
             </div>
                 <ul>
                     <li>-En BanCode también brindamos un gran apoyo, por fuera de las carreras o emprendimientos de tecnología</li>
@@ -99,7 +99,8 @@
                 <h4>
                     ¿Qué servicios tengo con BanCode?
                 </h4>
-                <img src="../img/arrow-top.png" alt="">
+                <img class="flecha-preguntas-frecuentes" 
+                src="../img/arrow-top.png" alt="">
             </div>
             <ul>
                 <li>-Créditos</li>
@@ -138,5 +139,6 @@
                 &copy; Desarrollado por estudiantes del CESDE, Todos los derechos reservados
             </p>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>

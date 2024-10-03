@@ -464,6 +464,7 @@ main img {
     border-radius: 35px;
     padding: 20px;
     color: #F8F9FA;
+    box-shadow: 0px 1px 5px black;
 }
 
 .pregunta-uno div, .pregunta-dos div, .pregunta-tres div, .pregunta-cuatro div {
@@ -473,6 +474,14 @@ main img {
 }
 
 
+
+
+
+/*flecha de preguntas frecuentes */
+.flecha-preguntas-frecuentes {
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px white);
+}
 
 ul {
     list-style: none;

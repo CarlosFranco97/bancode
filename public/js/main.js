@@ -1,4 +1,3 @@
-/* menu hamburguesa */
 
  const hamburguerMenu = ({target}) => {
 
@@ -35,4 +34,6 @@
 window.addEventListener('resize', containerNavResize);
 
 window.addEventListener('load', containerNavResize);
+
+
 
