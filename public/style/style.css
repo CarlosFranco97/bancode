@@ -122,10 +122,7 @@ header div {
 }
 
 
-/* imagen menu hamburguesa */
-.menu-hamburguesa {
-    filter: drop-shadow(0 0 1px white);    
-}
+
 
 .contenedor-nav-botones-header {
     display: flex;
