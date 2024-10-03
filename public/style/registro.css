@@ -79,8 +79,6 @@ aside {
     border: solid 2px white;
     border-radius: 20px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     position: relative;
     top: 40px;
     font-size: 24px;
@@ -93,7 +91,7 @@ aside {
 }
 
 
-/*main derecha*/
+/*seccion derecha*/
 
 .contenedor-registro {
     height: 100%;
@@ -194,11 +192,10 @@ aside {
 /*boton de registrar*/
 
 .ingreso {
-    width: 184px;
+    width: 185px;
     height: 56px;
     background-color: #614AD9;
     border-radius: 20px;
-    top: 60px;
     font-size: 32px;
     font-weight: bold;
     border: solid 1px #614AD9;
